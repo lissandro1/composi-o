@@ -58,6 +58,8 @@ public class Program {
 		System.out.println("Nome: " + worker.getName());
 		System.out.println("Departamento: " + worker.getDepartament().getName());
 		System.out.println("Renda em " + meseano + ": " + String.format("%.2f", worker.income(year, month)));
+		
+		sc.close();
 
 	}
 
